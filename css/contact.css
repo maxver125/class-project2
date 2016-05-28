@@ -1,0 +1,21 @@
+.contact {
+    position: fixed;
+    top: 40%;
+    left: 25%; 
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: fridays, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+@font-face {
+    font-family: fridays;
+    src: url(../font/Fridays.ttf);
+}

@@ -1,0 +1,121 @@
+body {
+    background-image: url("../img/bg.JPG");
+    background-color:rgba(128, 128, 128, 0.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0 auto;
+    height: 100%;
+}
+.main_wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ul {/*ask about position fixed and z-index*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:rgba(128, 128, 128, 1); 
+    border: 2px 2px 2px 2px solid; 
+    z-index: 100;
+}/* navy style starts here*/
+li a {
+    display:block;
+    float:left;
+    color: #00ffff;
+    padding: 12px 16px 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;  
+}
+/* change the link color on hover */
+li a:hover:not(.active) {
+    background-color: rgba(0, 255, 255, 0.5);
+    color: #000;
+}
+/* active color */
+li a.active {
+    background-color: rgba(0, 255, 255, 0.5);
+    color: #000;
+}
+.mv{
+   display:block;
+    color: #000;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none; 
+    font-size: 20px;
+    text-shadow: 1px 1px rgba(0, 255, 255, 1);
+}
+.rock-artical { /* artical box starts here, ask how to edit text in box*/
+    display: block;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    height: 318px;
+    position:absolute;
+    left: 50px;
+    top:80px;
+    padding: 10px;
+    background-color:rgba(128, 128, 128, 0.5);  
+}
+.rock-artical {
+    font: 18 Verdana, sans-serif;
+    text-align: left;
+    font height: 1.50;
+    color: #000;
+    padding: 10px;
+    text-transform: lowercase;
+    overflow: scroll;    
+}
+.scroll {
+    transform: rotate(90deg);
+    position: absolute;
+    top:95px;
+    left:340px;
+    padding: 5px;
+    color: red;
+    font-weight: 900;
+}
+img.rock {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:90px;
+    left:400px;
+    padding: 10px;
+}
+.rock span { 
+	position: absolute;
+	visibility: hidden;    
+}
+/* how do i enlarge photo on hover and position ??? */
+.rock a:hover, .rock:hover span { 
+	visibility:visible;
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+    position: absolute;
+    top:15px;
+    left:200px;
+    border: 2px solid #000;
+	z-index:101;
+}
+div.preview {
+    display:inline-block;
+    position:absolute;
+    top: 450px;
+    left:50px;
+    padding: 10px;   
+}
+/*footer starts here cant clear footing !;(*/
+.cc {
+    text-align: center;
+    font-weight: 700;
+}
+/*
+clearfix:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+*/

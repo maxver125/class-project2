@@ -1,0 +1,6 @@
+@media all and (max-width: 600px) {
+    background-image: url("../img/rock.JPG");
+}
+@media all and (max-width: 1240px) {
+    background-image: url("../img/1.JPG");
+}
