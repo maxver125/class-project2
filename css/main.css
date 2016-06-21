@@ -90,7 +90,7 @@ img.rock {
 	visibility: hidden;    
 }
 /* how do i enlarge photo on hover and position ??? */
-.rock a:hover, .rock:hover span { 
+.rock a:hover .rock:hover span { 
 	visibility:visible;
     transition: width 2s, height 4s;
     width: 300px;
