@@ -93,7 +93,7 @@ img.rock {
 .rock a:hover, .rock:hover span { 
 	visibility:visible;
     transition: all 3s ease-in-out;
-    transform: scale(1);
+    
     position: absolute;
     top:15px;
     left:200px;
