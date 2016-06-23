@@ -1,3 +1,17 @@
+.mvshow {
+    background: red;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+}
+.mvhide {
+    background: blue;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+}
 .contact {
     position: fixed;
     top: 40%;
